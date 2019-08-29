@@ -6,7 +6,7 @@
 // @match	     *
 // @include      *
 // @grant        none
-// @namespace    https://github.com/Janik313/recaptchaSkip/blob/master/%5Brecaptcha%20skip%5D.js
+// @namespace    https://github.com/Janik313/recaptchaSkip/blob/master/%5Brecaptcha%20skip%5D.user.js
 // ==/UserScript==
 
 var domain = (window.location != window.parent.location) ? document.referrer.toString() : document.location.toString();
